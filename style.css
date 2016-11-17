@@ -10,3 +10,11 @@ float:left;
 body {
   text-align: center;
 }
+body {
+  margin: auto;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 960px;
+}
+img {
+  border: 1px solid black;
+}
