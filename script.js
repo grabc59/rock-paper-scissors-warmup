@@ -24,6 +24,7 @@ function compare(userInput) {
   console.log('in here');
   console.log(userInput);
   var compInput = arr[Math.floor(Math.random() * 3)];
+  $('#computer-selection').text(compInput);
   if(userInput === 'rock') {
     if(compInput === 'scissors') {
       console.log('ok;')
